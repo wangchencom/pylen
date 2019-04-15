@@ -5,5 +5,7 @@ from selenium import webdriver
 # Firefox;浏览器
 # browser = webdriver.Firefox()
 # phantomjs
-browser = webdriver.Phantomjs()
-browser.get('http://www.google.cn/')
+# browser = webdriver.PhantomJS()
+# browser.get('http://www.google.cn/')
+options = Options()
+options.a
