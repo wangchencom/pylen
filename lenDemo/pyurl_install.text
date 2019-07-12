@@ -1,0 +1,47 @@
+#初始化依赖包
+sudo apt-get install -y zlib1g-dev libbz2-dev libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev tk-dev libgdbm-dev libdb-dev libpcap-dev xz-utils libexpat1-dev liblzma-dev libffi-dev libc6-dev
+#安装python
+sudo apt-get install -y python3
+#属于第三方库 朋友话筒 不会自带 需要手动安装
+pip3 install requests
+#这是一个自动化测试工具 可以驱动浏览器执行特定的动作 现版本已经 不支持PhantomJS（无界面式浏览器）
+pip3 install selenium
+# 这是一个阻塞式请求的HTTP请求库
+pip3 install aiohttp
+#lxml是Python的一个解析库支持xml html解析 支持xpath 
+pip3 install lxml
+#Beautiful Soup 是python的一个xml html解析库
+pip3 install beautifulsoup4
+	#安装完成测试Demo
+	from bs4 import BeautifulSoup
+	soup = BeautifulSoup('<p>Hello</p>','lxml')
+	print(soup.p.string)
+#这是一个网页解析工具
+pip3 install pyquery
+#这是一个图形验证码的OCR识别库
+sudo apt-get install -y tesseract-ocr libtesseract-dev libleptonica-dev
+#安装python链接mysql工具
+pip3 install pymysql
+#python链接MongoDB的工具
+pip3 install pymongo
+#安装pyhon链接redis数据库的工具
+pip3 install redis
+#安装RedisDump 用于Redis数据导出 导入 基于Ruby实现
+	#安装Ruby
+	sudo apt-get install ruby-full
+	#安装RedisDump
+	gem install redis-dump
+	#验证命令
+	redis-dump
+	redis-load
+#安装Web库
+	#Flask 轻量级Web服务程序
+	pip3 install flask
+	#Tornado 支持异步的Web框架
+	pip3 install tornado
+
+	
+
+
+
+
