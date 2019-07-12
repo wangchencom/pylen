@@ -58,6 +58,10 @@ pip3 install redis
 	#Tornado 支持异步的Web框架
 	pip3 install tornado
 
+#安装app爬去相关库
+    #Charles 一个网络抓包工具跨平台
+
+
 	
 
 
