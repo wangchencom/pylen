@@ -59,7 +59,45 @@ pip3 install redis
 	pip3 install tornado
 
 #安装app爬去相关库
-    #Charles 一个网络抓包工具跨平台
+                                    ×××××××安装各种证书××××××××××
+    #Charles 一个网络抓包工具跨平台 收费 可使用三十天 之后每次试用不超过三十分钟
+        https://www.charlesproxy.com/latest-release/download.do
+        https://blog.csdn.net/time_future/article/details/82935375
+
+    #mitmproxy一个支持http https 的抓包程序 控制台式的操作
+    pip3 install mitmproxy
+
+    #appium移动端的自动化测试工具
+    https://pan.baidu.com/s/1jGvAISu#list/path=%2F
+
+#安装爬虫框架
+
+    #pyspider 国人 binux编写的强大网络爬虫框架 带webui 脚本编辑器 任务控制器 项目管理器 结果处理器（吹爆）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	
