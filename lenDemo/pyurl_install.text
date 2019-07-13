@@ -86,6 +86,12 @@ pip3 install redis
             pip uninstall wsgidav
             python -m pip install wsgidav==2.4.1
     #Scrapy强大的爬虫框架 依赖的库比较多
+        #安装依赖库
+        sudo apt-get install build-essential python3-dev libssl-dev libffi-dev libxml2 libxml2-dev libxslt1-dev zlib1g-dev
+        pip3 install Scrapy
+        #验证安装
+        scrapy
+    #Scrapy_Splash 在Scrapy中支持js渲染的工具
 
 
 
