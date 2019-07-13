@@ -85,7 +85,7 @@ pip3 install redis
             #解决
             pip uninstall wsgidav
             python -m pip install wsgidav==2.4.1
-    #
+    #Scrapy强大的爬虫框架 依赖的库比较多
 
 
 
