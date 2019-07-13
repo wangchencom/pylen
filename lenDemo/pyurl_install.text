@@ -72,9 +72,20 @@ pip3 install redis
 
 #安装爬虫框架
 
-    #pyspider 国人 binux编写的强大网络爬虫框架 带webui 脚本编辑器 任务控制器 项目管理器 结果处理器（吹爆）
-
-
+    #pyspider 国人 binux编写的强大网络爬虫框架 带webui 脚本编辑器 任务控制器 项目管理器 结果处理器（吹爆）基于javascript 需要安装Phantomjs（以上）
+    pip3 install pyspider
+        #err 报错Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-wz733wu8/pycurl/
+           #解决方法安装PyCurl库
+                sudo apt-get install libcurl4-gnutls-dev
+                sudo apt-get install libghc-gnutls-dev
+           #最后通过pip进行安装：
+           pip3 install pycurl
+        #err 报错ValueError: Invalid configuration:
+                      - Deprecated option 'domaincontroller': use 'http_authenticator.domain_controller' instead.
+            #解决
+            pip uninstall wsgidav
+            python -m pip install wsgidav==2.4.1
+    #
 
 
 
