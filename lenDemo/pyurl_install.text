@@ -92,6 +92,41 @@ pip3 install redis
         #验证安装
         scrapy
     #Scrapy_Splash 在Scrapy中支持js渲染的工具
+        安装过程
+        先安装Docker
+        然后执行
+        docker run -p 8050:8050 scrapinghub/splash
+        守护姿态运行 关掉窗口依然运行
+        docker run -d -p 8050:8050 scrapinghub/splash
+        安装phthon库
+        pip3 install scrapy-splash
+    #scrapy-Redis 分布式扩展模块 实现Scrapy分布式爬虫搭建
+        pip3 install scrapy-redis
+        //*****注意 这个一定要使用root权限 不然会报一个 “段错误 (核心已转储)”  这个错 第一次见到 哈hahah ******\\
+    #部署相关库安装
+        //分布式爬虫 docker集群
+    #Scrapyd 是一个部署和运行Scrapy的工具 可以将写好的Scrapy项目上传到云主机
+        pip3 install scrapyd
+        然后需要配置一个文件 /etc/scrapyd/scrapyd.conf
+    #Scraprd-Clinent 打包部署
+        pip3 install scrapyd-client
+    #Scrapyd API 对Scraypd的封装
+        pip3 install python-scrapyd-api
+    #Scrapyrt 为scrapy提供了一个调度的http接口
+        pip3 install scrapyrt
+
+    #Gerapy scrapy分布式管理模块
+         pip3 install gerapy
+
+         //**************** 安装环境end *****************
+
+
+
+
+
+
+
+
 
 
 
