@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# coding:utf-8
 #python中的字符串
 #编码 python 使用的是 Unicode 也就是 兼容大多数编码
 
@@ -18,6 +20,21 @@ print('中文'.encode('ascii'))
 #   File "c:\Workspaces\vscode\pylen\Basics\tempCodeRunnerFile.py", line 1, in <module>
 #     print('����'.encode('ascii'))
 # UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+
+# python 里 python str类型 转为 byte类型 
+strToByte = b'byte'
+print(type(strToByte))
+# python 里  byte 转为 str类型 
+byteToByte = b'byte'.decode('ascii')
+print(byteToByte)
+print(type(byteToByte))
+
+CNToStr =  b'\xe4\xb8\xad\xe6\x96\x87\f'.decode('utf-8')
+print(CNToStr)
+print(type(CNToStr))
+
+
+
 
 
 
