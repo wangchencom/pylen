@@ -1,3 +1,6 @@
+# 告诉Linux OS x系统 这是一个python可执行程序 windows 会 忽略 这个 注释
+#!/usr/bin/env python3
+# 告诉Python编译器 按照UTF-8 格式 来执行 代码 否则 可能 会 有 乱码
 # -*- coding: utf-8 -*-
 # coding:utf-8
 #python中的字符串
@@ -32,6 +35,7 @@ print(type(byteToByte))
 CNToStr =  b'\xe4\xb8\xad\xe6\x96\x87\f'.decode('utf-8')
 print(CNToStr)
 print(type(CNToStr))
+
 
 
 
