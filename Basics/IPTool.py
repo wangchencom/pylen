@@ -73,6 +73,7 @@ def sleeptime(hour, min, sec):
     return hour * 3600 + min * 60 + sec
 
 
+
 if __name__ == '__main__':
     # 这是隔5秒执行一次
     second = sleeptime(0, 0, 300)
