@@ -23,4 +23,4 @@ lost_name = "cc";
 full_name = first_nema+""+lost_name;
 print(full_name);
 
-3.
+
